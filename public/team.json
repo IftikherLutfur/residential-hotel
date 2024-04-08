@@ -1,41 +1,41 @@
 [
     {
-      "img": "https://example.com/image1.jpg",
+      "img": "https://images.ctfassets.net/lh3zuq09vnm2/yBDals8aU8RWtb0xLnPkI/19b391bda8f43e16e64d40b55561e5cd/How_tracking_user_behavior_on_your_website_can_improve_customer_experience.png",
       "name": "John Doe",
       "residential_agent": "Software Engineer"
     },
     {
-      "img": "https://example.com/image2.jpg",
+      "img": "https://media.licdn.com/dms/image/C4D03AQEeEyYzNtDq7g/profile-displayphoto-shrink_400_400/0/1524234561685?e=2147483647&v=beta&t=CJY6IY9Bsqc2kiES7HZmnMo1_uf11zHc9DQ1tyk7R7Y",
       "name": "Jane Smith",
       "residential_agent": "Graphic Designer"
     },
     {
-      "img": "https://example.com/image3.jpg",
+      "img": "https://images.squarespace-cdn.com/content/v1/572e050c4d088ea3a8f0ac9d/1652567753661-R2Q0NDAPAXPO9I7OQ6EK/850_6727-PRINT.jpg?format=1000w",
       "name": "David Johnson",
       "residential_agent": "Data Scientist"
     },
     {
-      "img": "https://example.com/image4.jpg",
+      "img": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg",
       "name": "Emily Brown",
       "residential_agent": "Marketing Manager"
     },
     {
-      "img": "https://example.com/image5.jpg",
+      "img": "https://artriva.com/media/k2/items/cache/c889234799e865bbe90cee71f6cd2e53_XL.jpg",
       "name": "Michael Davis",
       "residential_agent": "Doctor"
     },
     {
-      "img": "https://example.com/image6.jpg",
+      "img": "https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture.jpg",
       "name": "Jennifer Martinez",
       "residential_agent": "Teacher"
     },
     {
-      "img": "https://example.com/image7.jpg",
+      "img": "https://www.richardsphotography.com/wp-content/uploads/2022/05/headshots-business-suit-and-tie-man-san-antonio-texas.jpg",
       "name": "Christopher Wilson",
       "residential_agent": "Accountant"
     },
     {
-      "img": "https://example.com/image8.jpg",
+      "img": "https://headshots-inc.com/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg",
       "name": "Jessica Lee",
       "residential_agent": "Writer"
     }

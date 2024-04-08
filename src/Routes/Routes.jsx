@@ -6,6 +6,9 @@ import Login from "../Components/Login/Login";
 import Home from "../Components/Home/Home";
 import Register from "../Components/Register/Register";
 import AboutUs from "../Components/AboutUs/AboutUs";
+import PrivateRoutes from "./PrivateRoutes";
+import Contact from "../Components/Contact/Contact";
+import CardDetails from "../Components/CardDetails/CardDetails";
 
   const router = createBrowserRouter([
     {
@@ -27,6 +30,14 @@ import AboutUs from "../Components/AboutUs/AboutUs";
         {
           path:'/about',
           element:<AboutUs></AboutUs>
+        },
+        {
+      path:'/contact',
+      element:<PrivateRoutes><Contact></Contact></PrivateRoutes>
+        },
+        {
+          path:'/category/:id',
+          element:<PrivateRoutes><CardDetails></CardDetails></PrivateRoutes>
         }
       ]
     },

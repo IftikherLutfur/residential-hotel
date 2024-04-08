@@ -39,6 +39,10 @@ const handleLogOut = () => {
         </button> 
       <button><NavLink to='/about'><li>About Us</li></NavLink></button>
       <button><li>Update Profile</li></button>
+      {
+        user &&
+        <button><NavLink to="/contact"><li>Contact Us</li></NavLink></button>
+      }
     </ul>
   </div>
 
