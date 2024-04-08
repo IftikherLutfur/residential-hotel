@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Cards from "../../Components/Cards/Cards.jsx"
+import Slider from '../Slider/Slider.jsx';
+import Team from '../Team/Team.jsx';
 
 const Home = () => {
 
@@ -15,11 +17,13 @@ const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className='grid grid-cols-3'>
+            <Slider></Slider>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
         {
             cards.map(card=><Cards key={card.id} card={card}></Cards>)
         }
             </div>
+            <Team></Team>
         </div>
     );
 };

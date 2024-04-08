@@ -1,112 +1,160 @@
 [
     {
       "id": 1,
-      "relevant_image": "image_url_here",
+      "relevant_image": "https://i.ibb.co/h1J6p6g/img-1.jpg",
       "estate_title": "Single-Family Home",
       "segment_name": "Single-Family",
+      "description" : "This charming single-family home features three bedrooms, two bathrooms, and a spacious living area perfect for family gatherings. The kitchen boasts modern appliances and ample counter space. Enjoy the convenience of a fenced backyard, ideal for outdoor activities and entertaining guests. Located in a quiet neighborhood close to schools, parks, and shopping centers.",
       "price": "$500,000",
       "status": "Sale",
       "area": "2500 sqft",
       "location": "City, State",
-      "facilities": ["Backyard", "Garage", "3 Bedrooms", "2 Bathrooms"]
+      "facilities": ["Backyard", "Garage", "3 Bedrooms", "2 Bathrooms"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     },
     {
       "id": 2,
-      "relevant_image": "image_url_here",
+      "relevant_image": "https://i.ibb.co/nDWJP0c/image.jpg",
       "estate_title": "Townhouse",
       "segment_name": "Townhouse",
       "price": "$350,000",
       "status": "Sale",
       "area": "1800 sqft",
       "location": "City, State",
-      "facilities": ["Shared Courtyard", "2 Car Garage", "3 Bedrooms", "2.5 Bathrooms"]
+      "facilities": ["Shared Courtyard", "2 Car Garage", "3 Bedrooms", "2.5 Bathrooms"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     },
     {
       "id": 3,
-      "relevant_image": "image_url_here",
+      "relevant_image": "https://i.ibb.co/HGgXFYN/apaert.jpg",
       "estate_title": "Apartment",
       "segment_name": "Apartment",
       "price": "$1,500/month",
       "status": "Rent",
       "area": "900 sqft",
       "location": "City, State",
-      "facilities": ["Gym", "Swimming Pool", "1 Bedroom", "1 Bathroom"]
+      "facilities": ["Gym", "Swimming Pool", "1 Bedroom", "1 Bathroom"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     },
     {
       "id": 4,
-      "relevant_image": "image_url_here",
+      "relevant_image": "https://i.ibb.co/SV21pJm/Student.jpg",
       "estate_title": "Student Housing",
       "segment_name": "Student Housing",
+      "description": "Welcome to your home away from home! Our student housing community offers comfortable and convenient living spaces tailored to the needs of college students. Whether you're studying late or enjoying downtime with friends, you'll find everything you need right here. Located within walking distance of campus, local eateries, and entertainment venues.",
       "price": "$800/month (per room)",
       "status": "Rent",
-      "area": "1200 sqft (per unit)",
+      "area": "1200 sqft ",
       "location": "City, State",
-      "facilities": ["Furnished", "Close to Campus", "Shared Common Area"]
+      "facilities": ["Study Lounge", "Close to Campus", "Shared Common Area","Indore"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     },
     {
       "id": 5,
-      "relevant_image": "image_url_here",
+      "relevant_image": "https://i.ibb.co/Jx2Ww3C/comunity.jpg",
       "estate_title": "Living Community",
       "segment_name": "Senior Living Community",
+      "description" : "Welcome to Harmony Haven, where residents become family and everyday life is enriched by a sense of belonging. Nestled amidst scenic landscapes and tranquil surroundings, our living community offers a harmonious blend of comfort, convenience, and camaraderie. Whether you're seeking relaxation, recreation, or meaningful connections, you'll find it all right here.",
       "price": "$3,000/month",
       "status": "Rent",
       "area": "1500 sqft",
       "location": "City, State",
-      "facilities": ["Assisted Living Services", "Community Activities", "Gardens"]
+      "facilities": ["Assisted Living Services", "Community Activities", "Gardens","Wellness Center"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     },
     {
       "id": 6,
-      "relevant_image": "image_url_here",
-      "estate_title": "Example Vacation Rental",
+      "relevant_image": "https://i.ibb.co/KhLWGLx/vacation.jpg",
+      "estate_title": "Vacation Rental",
       "segment_name": "Vacation Rental",
+      "description": "Experience the ultimate seaside getaway at Seaside Serenity, where breathtaking ocean views and luxurious amenities await. Nestled along the pristine coastline of Coastal Paradise, our vacation rental offers a serene retreat for families, couples, and friends alike. Whether you're seeking relaxation, adventure, or simply a slice of paradise, you'll find it all right here.",
       "price": "$250/night",
       "status": "Rent",
       "area": "2000 sqft",
       "location": "Beach City, State",
-      "facilities": ["Ocean View", "Private Pool", "3 Bedrooms", "2 Bathrooms"]
+      "facilities": ["Ocean View", "Private Pool", "3 Bedrooms", "2 Bathrooms"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     },
     {
       "id": 7,
-      "relevant_image": "image_url_here",
-      "estate_title": "Example Multi-family Home",
+      "relevant_image": "https://i.ibb.co/jLfkNCJ/multi.jpg",
+      "estate_title": "Multi-family Home",
       "segment_name": "Multi-family Home",
+      "description": "Welcome to Maple Grove Apartments, a modern and inviting multi-family home offering spacious living spaces and convenient amenities in the heart of Urban Heights. Perfect for individuals and families alike, our well-appointed apartments provide a comfortable and community-oriented living experience that you'll be proud to call home.",
       "price": "$750,000",
       "status": "Sale",
       "area": "4000 sqft",
       "location": "City, State",
-      "facilities": ["Multiple Units", "Parking", "Backyard"]
+      "facilities": ["Multiple Units","Children's Playground", "Parking", "Backyard"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     },
     {
       "id": 8,
-      "relevant_image": "image_url_here",
-      "estate_title": "Example Duplex",
+      "relevant_image": "https://i.ibb.co/s2dLKLx/1-WXYRg-Nkm-Nwb-ZIMLJ7-Lwo-CQ.jpg",
+      "estate_title": "Duplex",
       "segment_name": "Duplex",
+      "description": "Welcome to Sunset Terrace Duplex, where modern comfort meets suburban charm in a convenient and desirable location. This well-maintained duplex offers the perfect blend of privacy and community living, making it an ideal choice for individuals, couples, and small families seeking a cozy place to call home.",
       "price": "$400,000",
       "status": "Sale",
       "area": "2000 sqft",
       "location": "City, State",
-      "facilities": ["Two Units", "Yard Space", "Garage"]
+      "facilities": ["Two Units", "Yard Space", "Garage","Private Parking"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     },
     {
       "id": 9,
-      "relevant_image": "image_url_here",
-      "estate_title": "Example Historic Home",
+      "relevant_image": "https://i.ibb.co/yPKKkRs/Historic.jpg",
+      "estate_title": "Historic Home",
       "segment_name": "Historic Home",
+      "description": "Step back in time and experience the timeless elegance of Oakwood Manor, a meticulously restored historic home nestled in the heart of the charming Historic District. With its graceful architecture, rich heritage, and modern amenities, this stately residence offers a rare opportunity to live amidst the beauty and grandeur of a bygone era.",
       "price": "$1,200,000",
       "status": "Sale",
       "area": "3500 sqft",
       "location": "Historic District, City, State",
-      "facilities": ["Period Features", "Landscaped Garden", "5 Bedrooms", "3 Bathrooms"]
+      "facilities": ["Period Features", "Landscaped Garden", "5 Bedrooms", "3 Bathrooms"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     },
     {
       "id": 10,
-      "relevant_image": "image_url_here",
-      "estate_title": "Example Retirement Community",
+      "relevant_image": "https://i.ibb.co/x2LMKHj/Retired.jpg",
+      "estate_title": "Retirement Community",
       "segment_name": "Retirement Community",
+      "description":"Welcome to Serenity Oaks Retirement Village, where golden years are celebrated amidst serene surroundings and vibrant community living. Designed with the unique needs and preferences of retirees in mind, our inclusive community offers a fulfilling and enriching lifestyle, providing residents with the freedom to enjoy retirement to the fullest.",
       "price": "$4,500/month",
       "status": "Rent",
       "area": "2000 sqft",
       "location": "City, State",
-      "facilities": ["Independent Living", "Healthcare Services", "Community Activities"]
+      "facilities": ["Independent Living", "Healthcare Services", "Community Activities","Wellness Pavilion"],
+      "contact": {
+        "phone":"(555) 123-4567",
+        "email" : " jane.smith@example.com"
+      }
     }
   ]

@@ -1,0 +1,43 @@
+[
+    {
+      "img": "https://example.com/image1.jpg",
+      "name": "John Doe",
+      "residential_agent": "Software Engineer"
+    },
+    {
+      "img": "https://example.com/image2.jpg",
+      "name": "Jane Smith",
+      "residential_agent": "Graphic Designer"
+    },
+    {
+      "img": "https://example.com/image3.jpg",
+      "name": "David Johnson",
+      "residential_agent": "Data Scientist"
+    },
+    {
+      "img": "https://example.com/image4.jpg",
+      "name": "Emily Brown",
+      "residential_agent": "Marketing Manager"
+    },
+    {
+      "img": "https://example.com/image5.jpg",
+      "name": "Michael Davis",
+      "residential_agent": "Doctor"
+    },
+    {
+      "img": "https://example.com/image6.jpg",
+      "name": "Jennifer Martinez",
+      "residential_agent": "Teacher"
+    },
+    {
+      "img": "https://example.com/image7.jpg",
+      "name": "Christopher Wilson",
+      "residential_agent": "Accountant"
+    },
+    {
+      "img": "https://example.com/image8.jpg",
+      "name": "Jessica Lee",
+      "residential_agent": "Writer"
+    }
+  ]
+  
