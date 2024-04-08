@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import Cards from "../../Components/Cards/Cards.jsx"
 import Slider from '../Slider/Slider.jsx';
 import Team from '../Team/Team.jsx';
+import Footer from '../Footer.jsx';
 
 const Home = () => {
 
@@ -24,6 +25,7 @@ const Home = () => {
         }
             </div>
             <Team></Team>
+            <Footer></Footer>
         </div>
     );
 };
