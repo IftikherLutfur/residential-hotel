@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "relevant_image": "image_url_here",
+      "estate_title": "Single-Family Home",
+      "segment_name": "Single-Family",
+      "price": "$500,000",
+      "status": "Sale",
+      "area": "2500 sqft",
+      "location": "City, State",
+      "facilities": ["Backyard", "Garage", "3 Bedrooms", "2 Bathrooms"]
+    },
+    {
+      "id": 2,
+      "relevant_image": "image_url_here",
+      "estate_title": "Townhouse",
+      "segment_name": "Townhouse",
+      "price": "$350,000",
+      "status": "Sale",
+      "area": "1800 sqft",
+      "location": "City, State",
+      "facilities": ["Shared Courtyard", "2 Car Garage", "3 Bedrooms", "2.5 Bathrooms"]
+    },
+    {
+      "id": 3,
+      "relevant_image": "image_url_here",
+      "estate_title": "Apartment",
+      "segment_name": "Apartment",
+      "price": "$1,500/month",
+      "status": "Rent",
+      "area": "900 sqft",
+      "location": "City, State",
+      "facilities": ["Gym", "Swimming Pool", "1 Bedroom", "1 Bathroom"]
+    },
+    {
+      "id": 4,
+      "relevant_image": "image_url_here",
+      "estate_title": "Student Housing",
+      "segment_name": "Student Housing",
+      "price": "$800/month (per room)",
+      "status": "Rent",
+      "area": "1200 sqft (per unit)",
+      "location": "City, State",
+      "facilities": ["Furnished", "Close to Campus", "Shared Common Area"]
+    },
+    {
+      "id": 5,
+      "relevant_image": "image_url_here",
+      "estate_title": "Living Community",
+      "segment_name": "Senior Living Community",
+      "price": "$3,000/month",
+      "status": "Rent",
+      "area": "1500 sqft",
+      "location": "City, State",
+      "facilities": ["Assisted Living Services", "Community Activities", "Gardens"]
+    },
+    {
+      "id": 6,
+      "relevant_image": "image_url_here",
+      "estate_title": "Example Vacation Rental",
+      "segment_name": "Vacation Rental",
+      "price": "$250/night",
+      "status": "Rent",
+      "area": "2000 sqft",
+      "location": "Beach City, State",
+      "facilities": ["Ocean View", "Private Pool", "3 Bedrooms", "2 Bathrooms"]
+    },
+    {
+      "id": 7,
+      "relevant_image": "image_url_here",
+      "estate_title": "Example Multi-family Home",
+      "segment_name": "Multi-family Home",
+      "price": "$750,000",
+      "status": "Sale",
+      "area": "4000 sqft",
+      "location": "City, State",
+      "facilities": ["Multiple Units", "Parking", "Backyard"]
+    },
+    {
+      "id": 8,
+      "relevant_image": "image_url_here",
+      "estate_title": "Example Duplex",
+      "segment_name": "Duplex",
+      "price": "$400,000",
+      "status": "Sale",
+      "area": "2000 sqft",
+      "location": "City, State",
+      "facilities": ["Two Units", "Yard Space", "Garage"]
+    },
+    {
+      "id": 9,
+      "relevant_image": "image_url_here",
+      "estate_title": "Example Historic Home",
+      "segment_name": "Historic Home",
+      "price": "$1,200,000",
+      "status": "Sale",
+      "area": "3500 sqft",
+      "location": "Historic District, City, State",
+      "facilities": ["Period Features", "Landscaped Garden", "5 Bedrooms", "3 Bathrooms"]
+    },
+    {
+      "id": 10,
+      "relevant_image": "image_url_here",
+      "estate_title": "Example Retirement Community",
+      "segment_name": "Retirement Community",
+      "price": "$4,500/month",
+      "status": "Rent",
+      "area": "2000 sqft",
+      "location": "City, State",
+      "facilities": ["Independent Living", "Healthcare Services", "Community Activities"]
+    }
+  ]
