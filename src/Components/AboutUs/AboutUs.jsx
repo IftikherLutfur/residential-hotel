@@ -1,3 +1,4 @@
+
 import Navbar from '../Navbar/Navbar';
 import Team from '../Team/Team';
 import Features from './Features';
@@ -8,6 +9,7 @@ const AboutUs = () => {
             <Navbar></Navbar>
             <Features></Features>
             <Team></Team>
+           
         </div>
     );
 };

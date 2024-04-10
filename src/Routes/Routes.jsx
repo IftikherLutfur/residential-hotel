@@ -37,7 +37,9 @@ import CardDetails from "../Components/CardDetails/CardDetails";
         },
         {
           path:'/category/:id',
-          element:<PrivateRoutes><CardDetails></CardDetails></PrivateRoutes>
+          element:<PrivateRoutes><CardDetails></CardDetails></PrivateRoutes>,
+          loader: ()=> fetch('category.json')
+          // loader: async ({params}) => fetch(`/category/${params.id}`)
         }
       ]
     },

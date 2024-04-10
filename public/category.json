@@ -5,7 +5,7 @@
       "estate_title": "Single-Family Home",
       "segment_name": "Single-Family",
       "description" : "This charming single-family home features three bedrooms, two bathrooms, and a spacious living area perfect for family gatherings. The kitchen boasts modern appliances and ample counter space. Enjoy the convenience of a fenced backyard, ideal for outdoor activities and entertaining guests. Located in a quiet neighborhood close to schools, parks, and shopping centers.",
-      "price": "$500,000",
+      "price": "500,000",
       "status": "Sale",
       "area": "2500 sqft",
       "location": "City, State",
@@ -13,14 +13,19 @@
       "contact": {
         "phone":"(555) 123-4567",
         "email" : " jane.smith@example.com"
-      }
+      },
+      "review1":"My experience with this multi-family home has been nothing short of fantastic. From its strategic location to its well-designed units, every aspect has exceeded my expectations. The property management is top-notch, ensuring tenants are happy and the property is well-maintained. The consistent rental income has made it a lucrative investment, and I couldn't be happier with my decision to purchase this multi-family home.",
+      "review2":" I recently moved into this multi-family home, and I'm thoroughly impressed. The spacious units provide ample room for my family, and the modern amenities make everyday living convenient and comfortable. What truly sets this property apart is its community atmosphere - friendly neighbors and communal spaces create a welcoming environment. Additionally, its proximity to schools and businesses makes it perfect for both families and professionals. I highly recommend this multi-family home to anyone seeking a blend of convenience and community",
+      "review3":" As a real estate investor, I've come across many properties, but few compare to this multi-family home. Its charm and character make it stand out from the rest, and the attention to detail in each unit is remarkable. Not only is the interior aesthetically pleasing, but the exterior landscaping adds to its curb appeal. What's more impressive is the steady stream of rental income it generates, making it a lucrative investment. Whether you're looking for a place to call home or an addition to your investment portfolio, this multi-family home is an absolute gem.",
+      "avg_rate":"5.00"
     },
     {
       "id": 2,
       "relevant_image": "https://i.ibb.co/nDWJP0c/image.jpg",
       "estate_title": "Townhouse",
       "segment_name": "Townhouse",
-      "price": "$350,000",
+      "description" : "This charming single-family home features three bedrooms, two bathrooms, and a spacious living area perfect for family gatherings. The kitchen boasts modern appliances and ample counter space. Enjoy the convenience of a fenced backyard, ideal for outdoor activities and entertaining guests. Located in a quiet neighborhood close to schools, parks, and shopping centers.",
+      "price": "350,000",
       "status": "Sale",
       "area": "1800 sqft",
       "location": "City, State",
@@ -28,14 +33,19 @@
       "contact": {
         "phone":"(555) 123-4567",
         "email" : " jane.smith@example.com"
-      }
+      },
+      "review1":"My experience with this multi-family home has been nothing short of fantastic. From its strategic location to its well-designed units, every aspect has exceeded my expectations. The property management is top-notch, ensuring tenants are happy and the property is well-maintained. The consistent rental income has made it a lucrative investment, and I couldn't be happier with my decision to purchase this multi-family home.",
+      "review2":" I recently moved into this multi-family home, and I'm thoroughly impressed. The spacious units provide ample room for my family, and the modern amenities make everyday living convenient and comfortable. What truly sets this property apart is its community atmosphere - friendly neighbors and communal spaces create a welcoming environment. Additionally, its proximity to schools and businesses makes it perfect for both families and professionals. I highly recommend this multi-family home to anyone seeking a blend of convenience and community",
+      "review3":" As a real estate investor, I've come across many properties, but few compare to this multi-family home. Its charm and character make it stand out from the rest, and the attention to detail in each unit is remarkable. Not only is the interior aesthetically pleasing, but the exterior landscaping adds to its curb appeal. What's more impressive is the steady stream of rental income it generates, making it a lucrative investment. Whether you're looking for a place to call home or an addition to your investment portfolio, this multi-family home is an absolute gem.",
+      "avg_rate":"5.00"
     },
     {
       "id": 3,
       "relevant_image": "https://i.ibb.co/HGgXFYN/apaert.jpg",
       "estate_title": "Apartment",
+      "description" : "This charming single-family home features three bedrooms, two bathrooms, and a spacious living area perfect for family gatherings. The kitchen boasts modern appliances and ample counter space. Enjoy the convenience of a fenced backyard, ideal for outdoor activities and entertaining guests. Located in a quiet neighborhood close to schools, parks, and shopping centers.",
       "segment_name": "Apartment",
-      "price": "$1,500/month",
+      "price": "1,500/month",
       "status": "Rent",
       "area": "900 sqft",
       "location": "City, State",
@@ -43,7 +53,11 @@
       "contact": {
         "phone":"(555) 123-4567",
         "email" : " jane.smith@example.com"
-      }
+      },
+      "review1":"My experience with this multi-family home has been nothing short of fantastic. From its strategic location to its well-designed units, every aspect has exceeded my expectations. The property management is top-notch, ensuring tenants are happy and the property is well-maintained. The consistent rental income has made it a lucrative investment, and I couldn't be happier with my decision to purchase this multi-family home.",
+      "review2":" I recently moved into this multi-family home, and I'm thoroughly impressed. The spacious units provide ample room for my family, and the modern amenities make everyday living convenient and comfortable. What truly sets this property apart is its community atmosphere - friendly neighbors and communal spaces create a welcoming environment. Additionally, its proximity to schools and businesses makes it perfect for both families and professionals. I highly recommend this multi-family home to anyone seeking a blend of convenience and community",
+      "review3":" As a real estate investor, I've come across many properties, but few compare to this multi-family home. Its charm and character make it stand out from the rest, and the attention to detail in each unit is remarkable. Not only is the interior aesthetically pleasing, but the exterior landscaping adds to its curb appeal. What's more impressive is the steady stream of rental income it generates, making it a lucrative investment. Whether you're looking for a place to call home or an addition to your investment portfolio, this multi-family home is an absolute gem.",
+      "avg_rate":"5.00"
     },
     {
       "id": 4,
@@ -51,7 +65,7 @@
       "estate_title": "Student Housing",
       "segment_name": "Student Housing",
       "description": "Welcome to your home away from home! Our student housing community offers comfortable and convenient living spaces tailored to the needs of college students. Whether you're studying late or enjoying downtime with friends, you'll find everything you need right here. Located within walking distance of campus, local eateries, and entertainment venues.",
-      "price": "$800/month (per room)",
+      "price": "800/month (per room)",
       "status": "Rent",
       "area": "1200 sqft ",
       "location": "City, State",
@@ -59,7 +73,11 @@
       "contact": {
         "phone":"(555) 123-4567",
         "email" : " jane.smith@example.com"
-      }
+      },
+      "review1":"My experience with this multi-family home has been nothing short of fantastic. From its strategic location to its well-designed units, every aspect has exceeded my expectations. The property management is top-notch, ensuring tenants are happy and the property is well-maintained. The consistent rental income has made it a lucrative investment, and I couldn't be happier with my decision to purchase this multi-family home.",
+      "review2":" I recently moved into this multi-family home, and I'm thoroughly impressed. The spacious units provide ample room for my family, and the modern amenities make everyday living convenient and comfortable. What truly sets this property apart is its community atmosphere - friendly neighbors and communal spaces create a welcoming environment. Additionally, its proximity to schools and businesses makes it perfect for both families and professionals. I highly recommend this multi-family home to anyone seeking a blend of convenience and community",
+      "review3":" As a real estate investor, I've come across many properties, but few compare to this multi-family home. Its charm and character make it stand out from the rest, and the attention to detail in each unit is remarkable. Not only is the interior aesthetically pleasing, but the exterior landscaping adds to its curb appeal. What's more impressive is the steady stream of rental income it generates, making it a lucrative investment. Whether you're looking for a place to call home or an addition to your investment portfolio, this multi-family home is an absolute gem.",
+      "avg_rate":"5.00"
     },
     {
       "id": 5,
@@ -67,7 +85,7 @@
       "estate_title": "Living Community",
       "segment_name": "Senior Living Community",
       "description" : "Welcome to Harmony Haven, where residents become family and everyday life is enriched by a sense of belonging. Nestled amidst scenic landscapes and tranquil surroundings, our living community offers a harmonious blend of comfort, convenience, and camaraderie. Whether you're seeking relaxation, recreation, or meaningful connections, you'll find it all right here.",
-      "price": "$3,000/month",
+      "price": "3,000/month",
       "status": "Rent",
       "area": "1500 sqft",
       "location": "City, State",
@@ -75,7 +93,11 @@
       "contact": {
         "phone":"(555) 123-4567",
         "email" : " jane.smith@example.com"
-      }
+      },
+      "review1":"My experience with this multi-family home has been nothing short of fantastic. From its strategic location to its well-designed units, every aspect has exceeded my expectations. The property management is top-notch, ensuring tenants are happy and the property is well-maintained. The consistent rental income has made it a lucrative investment, and I couldn't be happier with my decision to purchase this multi-family home.",
+      "review2":" I recently moved into this multi-family home, and I'm thoroughly impressed. The spacious units provide ample room for my family, and the modern amenities make everyday living convenient and comfortable. What truly sets this property apart is its community atmosphere - friendly neighbors and communal spaces create a welcoming environment. Additionally, its proximity to schools and businesses makes it perfect for both families and professionals. I highly recommend this multi-family home to anyone seeking a blend of convenience and community",
+      "review3":" As a real estate investor, I've come across many properties, but few compare to this multi-family home. Its charm and character make it stand out from the rest, and the attention to detail in each unit is remarkable. Not only is the interior aesthetically pleasing, but the exterior landscaping adds to its curb appeal. What's more impressive is the steady stream of rental income it generates, making it a lucrative investment. Whether you're looking for a place to call home or an addition to your investment portfolio, this multi-family home is an absolute gem.",
+      "avg_rate":"5.00"
     },
     {
       "id": 6,
@@ -83,7 +105,7 @@
       "estate_title": "Vacation Rental",
       "segment_name": "Vacation Rental",
       "description": "Experience the ultimate seaside getaway at Seaside Serenity, where breathtaking ocean views and luxurious amenities await. Nestled along the pristine coastline of Coastal Paradise, our vacation rental offers a serene retreat for families, couples, and friends alike. Whether you're seeking relaxation, adventure, or simply a slice of paradise, you'll find it all right here.",
-      "price": "$250/night",
+      "price": "250/night",
       "status": "Rent",
       "area": "2000 sqft",
       "location": "Beach City, State",
@@ -91,7 +113,11 @@
       "contact": {
         "phone":"(555) 123-4567",
         "email" : " jane.smith@example.com"
-      }
+      },
+      "review1":"My experience with this multi-family home has been nothing short of fantastic. From its strategic location to its well-designed units, every aspect has exceeded my expectations. The property management is top-notch, ensuring tenants are happy and the property is well-maintained. The consistent rental income has made it a lucrative investment, and I couldn't be happier with my decision to purchase this multi-family home.",
+      "review2":" I recently moved into this multi-family home, and I'm thoroughly impressed. The spacious units provide ample room for my family, and the modern amenities make everyday living convenient and comfortable. What truly sets this property apart is its community atmosphere - friendly neighbors and communal spaces create a welcoming environment. Additionally, its proximity to schools and businesses makes it perfect for both families and professionals. I highly recommend this multi-family home to anyone seeking a blend of convenience and community",
+      "review3":" As a real estate investor, I've come across many properties, but few compare to this multi-family home. Its charm and character make it stand out from the rest, and the attention to detail in each unit is remarkable. Not only is the interior aesthetically pleasing, but the exterior landscaping adds to its curb appeal. What's more impressive is the steady stream of rental income it generates, making it a lucrative investment. Whether you're looking for a place to call home or an addition to your investment portfolio, this multi-family home is an absolute gem.",
+      "avg_rate":"5.00"
     },
     {
       "id": 7,
@@ -99,7 +125,7 @@
       "estate_title": "Multi-family Home",
       "segment_name": "Multi-family Home",
       "description": "Welcome to Maple Grove Apartments, a modern and inviting multi-family home offering spacious living spaces and convenient amenities in the heart of Urban Heights. Perfect for individuals and families alike, our well-appointed apartments provide a comfortable and community-oriented living experience that you'll be proud to call home.",
-      "price": "$750,000",
+      "price": "750,000",
       "status": "Sale",
       "area": "4000 sqft",
       "location": "City, State",
@@ -107,23 +133,8 @@
       "contact": {
         "phone":"(555) 123-4567",
         "email" : " jane.smith@example.com"
-      }
-    },
-    {
-      "id": 8,
-      "relevant_image": "https://i.ibb.co/s2dLKLx/1-WXYRg-Nkm-Nwb-ZIMLJ7-Lwo-CQ.jpg",
-      "estate_title": "Duplex",
-      "segment_name": "Duplex",
-      "description": "Welcome to Sunset Terrace Duplex, where modern comfort meets suburban charm in a convenient and desirable location. This well-maintained duplex offers the perfect blend of privacy and community living, making it an ideal choice for individuals, couples, and small families seeking a cozy place to call home.",
-      "price": "$400,000",
-      "status": "Sale",
-      "area": "2000 sqft",
-      "location": "City, State",
-      "facilities": ["Two Units", "Yard Space", "Garage","Private Parking"],
-      "contact": {
-        "phone":"(555) 123-4567",
-        "email" : " jane.smith@example.com"
-      }
+      },
+      "avg_rate":"5.00"
     },
     {
       "id": 9,
@@ -131,7 +142,7 @@
       "estate_title": "Historic Home",
       "segment_name": "Historic Home",
       "description": "Step back in time and experience the timeless elegance of Oakwood Manor, a meticulously restored historic home nestled in the heart of the charming Historic District. With its graceful architecture, rich heritage, and modern amenities, this stately residence offers a rare opportunity to live amidst the beauty and grandeur of a bygone era.",
-      "price": "$1,200,000",
+      "price": "1,200,000",
       "status": "Sale",
       "area": "3500 sqft",
       "location": "Historic District, City, State",
@@ -139,7 +150,11 @@
       "contact": {
         "phone":"(555) 123-4567",
         "email" : " jane.smith@example.com"
-      }
+      },
+      "review1":"My experience with this multi-family home has been nothing short of fantastic. From its strategic location to its well-designed units, every aspect has exceeded my expectations. The property management is top-notch, ensuring tenants are happy and the property is well-maintained. The consistent rental income has made it a lucrative investment, and I couldn't be happier with my decision to purchase this multi-family home.",
+      "review2":" I recently moved into this multi-family home, and I'm thoroughly impressed. The spacious units provide ample room for my family, and the modern amenities make everyday living convenient and comfortable. What truly sets this property apart is its community atmosphere - friendly neighbors and communal spaces create a welcoming environment. Additionally, its proximity to schools and businesses makes it perfect for both families and professionals. I highly recommend this multi-family home to anyone seeking a blend of convenience and community",
+      "review3":" As a real estate investor, I've come across many properties, but few compare to this multi-family home. Its charm and character make it stand out from the rest, and the attention to detail in each unit is remarkable. Not only is the interior aesthetically pleasing, but the exterior landscaping adds to its curb appeal. What's more impressive is the steady stream of rental income it generates, making it a lucrative investment. Whether you're looking for a place to call home or an addition to your investment portfolio, this multi-family home is an absolute gem.",
+      "avg_rate":"5.00"
     },
     {
       "id": 10,
@@ -147,7 +162,7 @@
       "estate_title": "Retirement Community",
       "segment_name": "Retirement Community",
       "description":"Welcome to Serenity Oaks Retirement Village, where golden years are celebrated amidst serene surroundings and vibrant community living. Designed with the unique needs and preferences of retirees in mind, our inclusive community offers a fulfilling and enriching lifestyle, providing residents with the freedom to enjoy retirement to the fullest.",
-      "price": "$4,500/month",
+      "price": "4,500/month",
       "status": "Rent",
       "area": "2000 sqft",
       "location": "City, State",
@@ -155,6 +170,10 @@
       "contact": {
         "phone":"(555) 123-4567",
         "email" : " jane.smith@example.com"
-      }
+      },
+      "review1":"My experience with this multi-family home has been nothing short of fantastic. From its strategic location to its well-designed units, every aspect has exceeded my expectations. The property management is top-notch, ensuring tenants are happy and the property is well-maintained. The consistent rental income has made it a lucrative investment, and I couldn't be happier with my decision to purchase this multi-family home.",
+      "review2":" I recently moved into this multi-family home, and I'm thoroughly impressed. The spacious units provide ample room for my family, and the modern amenities make everyday living convenient and comfortable. What truly sets this property apart is its community atmosphere - friendly neighbors and communal spaces create a welcoming environment. Additionally, its proximity to schools and businesses makes it perfect for both families and professionals. I highly recommend this multi-family home to anyone seeking a blend of convenience and community",
+      "review3":" As a real estate investor, I've come across many properties, but few compare to this multi-family home. Its charm and character make it stand out from the rest, and the attention to detail in each unit is remarkable. Not only is the interior aesthetically pleasing, but the exterior landscaping adds to its curb appeal. What's more impressive is the steady stream of rental income it generates, making it a lucrative investment. Whether you're looking for a place to call home or an addition to your investment portfolio, this multi-family home is an absolute gem.",
+      "avg_rate":"5.00"
     }
   ]

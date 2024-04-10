@@ -1,17 +1,22 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 const Cards = ({ card }) => {
 
-	const { estate_title, relevant_image, status, area, location, facilities } = card;
+	// const [details, setDetails] = useState([])
 
-	const [details, setDetails] = useState([])
+	const { id, estate_title, relevant_image, status, area, location, facilities } = card;
 
-	useEffect(() => {
-		fetch('category.json')
-			.then(res => res.json())
-			.then(data => setDetails(data))
-	}, [])
+	
+
+
+	// useEffect(() => {
+	// 	fetch('category.json')
+	// 		.then(res => res.json())
+	// 		.then(data => setDetails(data))
+	// }, [])
+
+	
+
 
 	return (
 		<div className="mx-auto">
@@ -39,12 +44,14 @@ const Cards = ({ card }) => {
 
 					</div>
 
-					
-						{details.map(detail=><Link key={detail.id} to={`/category/${detail.id}`}>
-						<button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50">View Details</button>
-						</Link>
-					)}
-					
+					<Link key={id} to={`/category/${id}`}>
+						<button className=" btn w-full text-white bg-primary">
+							View Details
+						</button>
+					</Link>
+
+
+
 				</div>
 			</div>
 		</div>

@@ -1,5 +1,12 @@
 import Footer from "../Footer";
 import Navbar from "../Navbar/Navbar";
+import { FaPhone } from "react-icons/fa6";
+import { IoMdMailOpen } from "react-icons/io";
+import { IoLocation } from "react-icons/io5";
+
+
+
+
 
 const Contact = () => {
     return (
@@ -18,21 +25,21 @@ const Contact = () => {
 
     <div className="w-[650px] bg-slate-100 p-10">
    
-     <h1 className="text-3xl font-semibold text-center"> Contact Details</h1>
+     <h1 className="text-3xl mb-4 font-semibold text-center"> Contact Details</h1>
      <p className="opacity-90 text-center">If you have any questions, just fill in the contact form, and we will answer you shortly. If you are living nearby, come visit our office.</p>
      <div className="mt-4">
         <p className="font-bold">Client Support:</p>
-        <h className="text-2xl pt-2">1-800-1234-567</h>
+        <h1 className="text-2xl pt-2 flex items-center"><small><FaPhone></FaPhone></small> 1-800-1234-567</h1>
      </div>
      <br />
      <div className="mt-4">
-        <p className="font-bold">E-mail:</p>
-        <h className="text-2xl pt-2">info@demolink.org</h>
+        <p className="font-bold ">E-mail:</p>
+        <h className="text-2xl pt-2 flex items-center"><small><IoMdMailOpen></IoMdMailOpen></small>info@demolink.org</h>
      </div>
      <br />
      <div className="mt-4">
         <p className="font-bold">Main Office:</p>
-        <h className="text-2xl pt-2">3015 Grand Ave, Coconut Grove,Merrick Way, FL 12345</h>
+        <h className="text-2xl pt-2 flex items-center"><small><IoLocation></IoLocation></small>3015 Grand Ave, Coconut Grove,Merrick Way</h>
      </div>
 
 
