@@ -1,5 +1,4 @@
 
-
 const Footer = () => {
     return (
         <div className="mx-auto mt-5">
