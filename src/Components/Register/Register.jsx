@@ -4,7 +4,7 @@ import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 const Register = () => {
 
-	const { createUser } = useContext(AuthContext)
+	const { createUser, updateUserProfile } = useContext(AuthContext)
 
 	const handleForRegister = e => {
 		e.preventDefault();
@@ -12,16 +12,21 @@ const Register = () => {
 		const form = new FormData(e.currentTarget);
 		const name = form.get("name");
 		const email = form.get("email");
+		const image = form.get("image")
 		const password = form.get("password");
-		console.log(name, email, password);
+		console.log(name, email, image, password);
 
 		createUser(name, email, password)
 			.then(result => {
-				console.log(result.user);
+                updateUserProfile(name,image)
+				.then(()=>{
+					console.log(result.user);
+				})
 			})
 			.catch(error => {
 				console.error(error)
-			})		
+			})	
+
 
 	}
 
@@ -43,6 +48,7 @@ const Register = () => {
 							placeholder="Enter your name"
 							className="w-full border-2 border-black px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
 					</div>
+
 					<div className="space-y-1 text-sm">
 
 						<label htmlFor="username" className="block dark:text-gray-600">Email</label>
@@ -51,6 +57,17 @@ const Register = () => {
 							type="email"
 							name="email"
 							placeholder="Example@gmail.com"
+							className="w-full border-2 border-black px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
+					</div>
+
+					<div className="space-y-1 text-sm">
+
+						<label htmlFor="username" className="block dark:text-gray-600">Photo URL</label>
+
+						<input
+							type="url"
+							name="image"
+							placeholder="Photo Url"
 							className="w-full border-2 border-black px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
 					</div>
 

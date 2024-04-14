@@ -9,6 +9,7 @@ import AboutUs from "../Components/AboutUs/AboutUs";
 import PrivateRoutes from "./PrivateRoutes";
 import Contact from "../Components/Contact/Contact";
 import CardDetails from "../Components/CardDetails/CardDetails";
+import UserProfile from "../Components/UserProfile/UserProfile";
 
   const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ import CardDetails from "../Components/CardDetails/CardDetails";
           element:<PrivateRoutes><CardDetails></CardDetails></PrivateRoutes>,
           loader: ()=> fetch('category.json')
           // loader: async ({params}) => fetch(`/category/${params.id}`)
+        },
+        {
+          path:'/profile',
+          element:<PrivateRoutes><UserProfile></UserProfile></PrivateRoutes>
         }
       ]
     },
