@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import { IoLocation } from "react-icons/io5";
 import { MdOutlineAttachMoney } from "react-icons/md";
 import Footer from "../Footer";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -11,11 +12,14 @@ const CardDetails = () => {
 
     const cards = useLoaderData()
     const { id } = useParams()
-    const idInt = parseInt(id)
+    const idInt  = parseInt(id)
     const card = cards.find(bk => bk.id === idInt)
 
     return (
         <div>
+            <Helmet>
+                <title>Homies - Details</title>
+            </Helmet>
             <Navbar></Navbar>
             <div className="grid grid-cols-2 gap-5 p-4 bg-slate-100 mx-5 rounded-xl border-2">
                 <div>

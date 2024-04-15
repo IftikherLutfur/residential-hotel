@@ -10,11 +10,13 @@ import PrivateRoutes from "./PrivateRoutes";
 import Contact from "../Components/Contact/Contact";
 import CardDetails from "../Components/CardDetails/CardDetails";
 import UserProfile from "../Components/UserProfile/UserProfile";
+import Error from "./Error";
 
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement:<Error></Error>,
       children:[
         {
             path:'/',
@@ -40,7 +42,7 @@ import UserProfile from "../Components/UserProfile/UserProfile";
           path:'/category/:id',
           element:<PrivateRoutes><CardDetails></CardDetails></PrivateRoutes>,
           loader: ()=> fetch('category.json')
-          // loader: async ({params}) => fetch(`/category/${params.id}`)
+          // loader: async ({params}) => fetch(`/category.json/${params.id}`)
         },
         {
           path:'/profile',

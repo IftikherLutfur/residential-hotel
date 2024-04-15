@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
+import { Helmet } from "react-helmet-async";
 
 const Register = () => {
 
@@ -32,6 +33,9 @@ const Register = () => {
 
 	return (
 		<div>
+			<Helmet>
+				<title>Homies - Register</title>
+			</Helmet>
 			<div className="w-full mx-auto mt-10 max-w-md p-8 space-y-3 rounded-xl dark:bg-green-500 dark:text-gray-800">
 				<h1 className="text-2xl font-bold text-center">Register</h1>
 

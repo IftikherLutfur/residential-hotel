@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Footer from "../Footer";
 import Navbar from "../Navbar/Navbar";
 import { FaPhone } from "react-icons/fa6";
@@ -11,6 +12,9 @@ import { IoLocation } from "react-icons/io5";
 const Contact = () => {
     return (
         <div>
+          <Helmet>
+                <title>Homies - Contact Us</title>
+            </Helmet>
             <Navbar></Navbar>
             <div className="hero " style={{backgroundImage: 'url(https://timelinecovers.pro/facebook-cover/download/i-am-a-businesswoman-facebook-cover.jpg)'}}>
   <div className="hero-overlay bg-opacity-50"></div>

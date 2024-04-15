@@ -4,6 +4,7 @@ import Cards from "../../Components/Cards/Cards.jsx"
 import Slider from '../Slider/Slider.jsx';
 import Team from '../Team/Team.jsx';
 import Footer from '../Footer.jsx';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
 
@@ -17,6 +18,9 @@ const Home = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Homies - Home</title>
+            </Helmet>
             <Navbar></Navbar>
             <Slider></Slider>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>

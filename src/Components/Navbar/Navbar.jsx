@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li className="font-bold ml-5">Home</li>
-              <li className="font-bold ml-5">Update Profile</li>
+             <NavLink to='/update'><li className="font-bold ml-5">Update Profile</li></NavLink>
             </ul>
           </div>
           <a className="btn btn-ghost text-2xl font-bold">Homies</a>
@@ -55,7 +55,11 @@ const Navbar = () => {
         <div className="navbar-end gap-5">
           {
             user &&
-            <img className="w-16 h-16 rounded-full" src={user.photoURL} alt="" />
+            <div className="avatar">
+            <div className="w-16 rounded-full">
+              <img src={user.photoURL} />
+            </div>
+          </div>
           }
           {user ?
 

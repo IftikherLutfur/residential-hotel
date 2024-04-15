@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer';
+import { Helmet } from 'react-helmet-async';
 
 const UserProfile = () => {
 
@@ -11,6 +12,9 @@ const UserProfile = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Homies - User Profile</title>
+            </Helmet>
             <Navbar></Navbar>
             <div className="flex flex-col justify-center max-auto p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800">
                 <img src={user.photoURL}alt="" className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />
