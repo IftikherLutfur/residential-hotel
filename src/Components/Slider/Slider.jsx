@@ -3,35 +3,36 @@ import 'animate.css';
 const Slider = () => {
     return (
         <div className=' mt-10 mb-5'>
-        <div className="relative flex items-center justify-center w-full dark:text-gray-900">
-	<button aria-label="Slide back" type="button" className="absolute left-0 z-30 p-2 ml-10 bg-opacity-50 rounded-full focus:outline-none focus:dark:bg-gray-600 focus:ring-2 focus:ring-offset-2 focus:dark:ring-gray-600 dark:bg-gray-50">
-		<svg width="8" height="14" fill="none" viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4">
-			<path d="M7 1L1 7L7 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-		</svg>
-	</button>
-	<div className="flex items-center justify-start w-full h-full gap-6 py-4 mx-auto overflow-auto lg:gap-8">
-		<div className="relative flex flex-shrink-0 w-full sm:w-auto">
-			<img className="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="https://source.unsplash.com/random/240x360/?1" alt="Image 1" />
-		</div>
-		<div className="relative flex flex-shrink-0 w-full sm:w-auto">
-			<img className="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="https://source.unsplash.com/random/240x360/?2" alt="Image 2" />
-		</div>
-		<div className="relative flex flex-shrink-0 w-full sm:w-auto">
-			<img className="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="https://source.unsplash.com/random/240x360/?3" alt="Image 3" />
-		</div>
-		<div className="relative flex flex-shrink-0 w-full sm:w-auto">
-			<img className="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="https://source.unsplash.com/random/240x360/?4" alt="Image 4" />
-		</div>
-		<div className="relative flex flex-shrink-0 w-full sm:w-auto">
-			<img className="object-cover object-center dark:bg-gray-500 h-96 aspect-square" src="https://source.unsplash.com/random/240x360/?5" alt="Image 5" />
-		</div>
-	</div>
-	<button aria-label="Slide forward" id="next" className="absolute right-0 z-30 p-2 mr-10 bg-opacity-50 rounded-full focus:outline-none focus:dark:bg-gray-600 focus:ring-2 focus:ring-offset-2 focus:dark:ring-gray-600 dark:bg-gray-50">
-		<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4">
-			<path d="M1 1L7 7L1 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-		</svg>
-	</button>
+
+<div className="carousel rounded-box">
+
+  <div className="carousel-item">
+    <img className='w-[450px] h-[400px]' src="https://t3.ftcdn.net/jpg/04/27/70/64/360_F_427706432_OTNX01bqkZttcIX9sht4SxvjBm6xJHEX.jpg" alt="Burger" />
+  </div>
+
+  <div className="carousel-item">
+    <img className='w-[450px] h-[400px]' src="https://i.pinimg.com/originals/2f/14/f1/2f14f1e2d39523ae296fc19f59744f62.png" alt="Burger" />
+  </div> 
+
+  <div className="carousel-item">
+    <img className='w-[450px] h-[400px]' src="https://e1.pxfuel.com/desktop-wallpaper/735/1008/desktop-wallpaper-100-duplex-home-design-duplex-house-design-for-2022.jpg" alt="Burger" />
+  </div> 
+
+
+  <div className="carousel-item">
+    <img className='w-[450px] h-[400px]' src="https://e1.pxfuel.com/desktop-wallpaper/684/390/desktop-wallpaper-100-duplex-home-design-duplex-house-design-for-2022-duplex.jpg" alt="Burger" />
+  </div> 
+  <div className="carousel-item">
+    <img className='w-[450px] h-[400px]' src="https://www.coastalhomeplans.com/wp-content/uploads/2023/01/new_smyrna_front_photo.jpg" alt="Burger" />
+  </div> 
+  <div className="carousel-item">
+    <img className='w-[450px] h-[400px]' src="https://c1.wallpaperflare.com/preview/91/37/233/home-house-exterior-luxury.jpg" alt="Burger" />
+  </div> 
+  <div className="carousel-item">
+    <img className='w-[450px] h-[400px]' src="https://wallpapercave.com/wp/wp6766763.jpg" alt="Burger" />
+  </div>
 </div>
+
         </div>
     );
 };
