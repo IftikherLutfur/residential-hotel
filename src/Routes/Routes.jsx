@@ -11,6 +11,8 @@ import Contact from "../Components/Contact/Contact";
 import CardDetails from "../Components/CardDetails/CardDetails";
 import UserProfile from "../Components/UserProfile/UserProfile";
 import Error from "./Error";
+import Services from "../Components/Services/Services";
+import UpdateProfile from "../Components/UserProfile/UpdateProfile";
 
   const router = createBrowserRouter([
     {
@@ -44,10 +46,14 @@ import Error from "./Error";
           loader: ()=> fetch('category.json')
           // loader: async ({params}) => fetch(`/category.json/${params.id}`)
         },
+        
         {
-          path:'/profile',
-          element:<PrivateRoutes><UserProfile></UserProfile></PrivateRoutes>
-        }
+          path:'/services',
+          element:<PrivateRoutes><Services></Services></PrivateRoutes>
+      },
+         { path:'/update',
+          element:<PrivateRoutes><UpdateProfile></UpdateProfile></PrivateRoutes>
+      }
       ]
     },
   ]);

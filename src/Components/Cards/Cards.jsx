@@ -1,30 +1,28 @@
 import { Link } from "react-router-dom";
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 const Cards = ({ card }) => {
+
+	useEffect(() => {
+Aos.init()
+	}, [])
 
 	// const [details, setDetails] = useState([])
 
 	const { id, estate_title, relevant_image, status, area, location, facilities } = card;
 
-	
 
-
-	// useEffect(() => {
-	// 	fetch('category.json')
-	// 		.then(res => res.json())
-	// 		.then(data => setDetails(data))
-	// }, [])
-
-	
 
 
 	return (
 		<div className="mx-auto">
 
-			<div className=" p-5 border-2 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800 mb-4 w-[400px] h-[680px]">
+			<div data-aos="flip-left" className=" p-5 border-2 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800 mb-4 w-[400px] h-[680px]">
 
 				<img src={relevant_image} alt="" className="object-cover object-center w-full rounded-t-md h-72 rounded-lg dark:bg-gray-500" />
 
-				<div className="flex flex-col justify-between p-6 space-y-8">
+				<div data-aos="fade-left" className="flex flex-col justify-between p-6 space-y-8">
 
 					<div className="space-y-1">
 						<h2 className="text-2xl text-center font-bold tracking-wide">{estate_title}</h2>

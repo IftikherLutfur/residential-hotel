@@ -6,7 +6,26 @@ import { Helmet } from 'react-helmet-async';
 
 const UserProfile = () => {
 
-    const { user } = useContext(AuthContext)
+    const { user, updateUserProfile } = useContext(AuthContext)
+
+    const updateProfile = e => {
+        e.preventDefault()
+        console.log(e.currentTarget);
+        const form = new FormData(e.currentTarget);
+        const name = form.get(name);
+        const image = form.get(image);
+        console.log(name, image);
+
+        updateUserProfile(name, image)
+					.then(result => {
+						console.log(result.user);
+					})
+                    .catch(error => {
+                        console.log(error);
+                    })
+
+
+    }
 
 
 
@@ -15,9 +34,8 @@ const UserProfile = () => {
             <Helmet>
                 <title>Homies - User Profile</title>
             </Helmet>
-            <Navbar></Navbar>
             <div className="flex flex-col justify-center max-auto p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800">
-                <img src={user.photoURL}alt="" className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />
+                <img src={user.photoURL} alt="" className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />
                 <div className="space-y-4 text-center divide-y dark:divide-gray-300">
                     <div className="my-2 space-y-1">
                         <h2 className="text-xl font-semibold sm:text-2xl">{user.displayName}</h2>
@@ -47,8 +65,8 @@ const UserProfile = () => {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
 
+           
         </div>
     );
 };

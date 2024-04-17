@@ -1,11 +1,20 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { Helmet } from "react-helmet-async";
+import Navbar from '../Navbar/Navbar'
+import { FaRegEye, FaRegEyeSlash } from "react-icons/fa";
+
 
 const Register = () => {
 
 	const { createUser, updateUserProfile } = useContext(AuthContext)
+
+	const [error, setError] = useState('');
+	const [passError, setPassError] = useState('')
+	const [showPass, setShowPass] = useState(false)
+
+
 
 	const handleForRegister = e => {
 		e.preventDefault();
@@ -17,16 +26,27 @@ const Register = () => {
 		const password = form.get("password");
 		console.log(name, email, image, password);
 
+		setError('');
+		setPassError('')
+
+		if (!/[A-Z]/.test(password)) {
+			setError("You should have an upperCase in the Password")
+			return;
+		}
+		else if (password.length < 6) {
+			setPassError("Password Should Be Minimum 6 Character")
+			return;
+		}
 		createUser(name, email, password)
 			.then(result => {
-                updateUserProfile(name,image)
-				.then(()=>{
-					console.log(result.user);
-				})
+				updateUserProfile(name, image)
+					.then(() => {
+						console.log(result.user);
+					})
 			})
 			.catch(error => {
 				console.error(error)
-			})	
+			})
 
 
 	}
@@ -36,6 +56,7 @@ const Register = () => {
 			<Helmet>
 				<title>Homies - Register</title>
 			</Helmet>
+			<Navbar></Navbar>
 			<div className="w-full mx-auto mt-10 max-w-md p-8 space-y-3 rounded-xl dark:bg-green-500 dark:text-gray-800">
 				<h1 className="text-2xl font-bold text-center">Register</h1>
 
@@ -80,16 +101,33 @@ const Register = () => {
 						<label htmlFor="password" className="block dark:text-gray-600">Password</label>
 
 						<input
-							type="password"
+							type={showPass ? "text" : "password"}
 							name="password"
 							placeholder="******"
-							className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
+							className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800
+							 focus:dark:border-violet-600" />
+
+			<span className="relative bottom-7 left-[350px]" onClick={()=>setShowPass(!showPass)}>
+				{showPass?<FaRegEye></FaRegEye>:<FaRegEyeSlash></FaRegEyeSlash>}
+				</span>
+
 						{/* <div className="flex justify-end text-xs dark:text-gray-600">
 				<a rel="noopener noreferrer" href="#">Forgot Password?</a>
 			</div> */}
 					</div>
 
 					<button className="block w-full p-3 text-center rounded-sm dark:text-gray-50 dark:bg-violet-600">Register</button>
+
+					<div className="text-center">
+						{
+							error && <p className="font-bold text-red-600">Password Should have at least one upper case </p>
+						}
+						{
+							passError && <p className="font-bold text-red-600">
+								Password Should Be Minimum 6 Character
+								</p>
+						}
+					</div>
 				</form>
 
 

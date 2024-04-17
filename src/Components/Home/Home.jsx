@@ -5,6 +5,8 @@ import Slider from '../Slider/Slider.jsx';
 import Team from '../Team/Team.jsx';
 import Footer from '../Footer.jsx';
 import { Helmet } from 'react-helmet-async';
+import GoogleMap from '../Map/GoogleMap.jsx';
+import Quality from './Quality.jsx';
 
 const Home = () => {
 
@@ -23,12 +25,14 @@ const Home = () => {
             </Helmet>
             <Navbar></Navbar>
             <Slider></Slider>
+            <Quality></Quality>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
         {
             cards.map(card=><Cards key={card.id} card={card}></Cards>)
         }
             </div>
             <Team></Team>
+            <GoogleMap></GoogleMap>
             <Footer></Footer>
         </div>
     );

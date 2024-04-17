@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import { FaPhone } from "react-icons/fa6";
 import { IoMdMailOpen } from "react-icons/io";
 import { IoLocation } from "react-icons/io5";
+import GoogleMap from "../Map/GoogleMap";
 
 
 
@@ -72,6 +73,26 @@ const Contact = () => {
 </section>
     </div>
 </div>
+
+<GoogleMap></GoogleMap>
+
+
+<div className="flex items-center justify-center gap-10 my-8 py-10"  style={{backgroundImage: "url('https://media.istockphoto.com/id/1282514371/vector/retro-cube-abstract-background-pattern.jpg?s=612x612&w=0&k=20&c=oPOf_95VORMrHPuyT6NndGlp-eEa7d_V1zLuFP_GioU=')"}}>
+
+  <div>
+  <h1 className="text-5xl font-bold text-black hover:text-orange-400">
+  Subscribe our Newsletter
+  </h1>
+  </div>
+  <div>
+  <div className="join">
+  <input className="input input-bordered join-item bg-orange-600 text-white" placeholder="Email"/>
+  <button className="btn join-item rounded-r-full">Subscribe</button>
+</div>
+  </div>
+</div>
+
+
 
 <Footer></Footer>
         </div>

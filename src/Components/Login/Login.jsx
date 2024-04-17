@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { Helmet } from "react-helmet-async";
+import { FaRegEye, FaRegEyeSlash } from "react-icons/fa";
 
 const Login = () => {
 
 	const {logIn,  googleUer} = useContext(AuthContext)
+	const [showPass, setShowPass] = useState(false)
 
     const handleForLogin = e =>{
         e.preventDefault();
@@ -60,13 +62,15 @@ const google = () => {
 			<label htmlFor="password" className="block dark:text-gray-600">Password</label>
 
 			<input 
-            type="password" 
+            type={showPass ? "text" :"password"} 
             name="password" 
             placeholder="******" 
             className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
-			{/* <div className="flex justify-end text-xs dark:text-gray-600">
-				<a rel="noopener noreferrer" href="#">Forgot Password?</a>
-			</div> */}
+			
+			<span className="relative bottom-7 left-[350px]" onClick={()=>setShowPass(!showPass)}>
+				{showPass?<FaRegEye></FaRegEye>:<FaRegEyeSlash></FaRegEyeSlash>}
+				</span>
+
 		</div>
 
 		<button className="block w-full p-3 text-center rounded-sm dark:text-gray-50 dark:bg-violet-600">Login</button>
