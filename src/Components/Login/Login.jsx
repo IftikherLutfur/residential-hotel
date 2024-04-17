@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
@@ -9,6 +9,9 @@ const Login = () => {
 
 	const {logIn,  googleUer} = useContext(AuthContext)
 	const [showPass, setShowPass] = useState(false)
+	const location = useLocation();
+	const navigate = useNavigate();
+	console.log("Location in the login page", location);
 
     const handleForLogin = e =>{
         e.preventDefault();
@@ -21,6 +24,7 @@ const Login = () => {
    logIn(email,password)
    .then(result => {
 	console.log(result.user);
+	navigate(location?.state ? location.state : '/')
 
    })
 
