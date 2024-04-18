@@ -43,7 +43,7 @@ import UpdateProfile from "../Components/UserProfile/UpdateProfile";
         {
           path:'/category/:id',
           element:<PrivateRoutes><CardDetails></CardDetails></PrivateRoutes>,
-          loader: ()=> fetch('category.json')
+          loader: ()=> fetch('/category.json')
           // loader: async ({params}) => fetch(`/category.json/${params.id}`)
         },
         

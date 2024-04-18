@@ -42,18 +42,38 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal gap-5 text-[16px] font-semibold px-1">
             <button>
-              <NavLink to='/'>
+              <NavLink className={({ isActive}) =>
+                      isActive
+                        ? "text-green-500 underline"
+                       :
+                         ""  
+                    } to='/'>
                 <li>Home</li>
               </NavLink>
             </button>
-            <button><NavLink to='/about'><li>About Us</li></NavLink></button>
+            <button><NavLink className={({ isActive}) =>
+                      isActive
+                        ? "text-green-500 underline"
+                       :
+                         ""  
+                    } to='/about'><li>About Us</li></NavLink></button>
             {
               user &&
-              <button><NavLink to="/contact"><li>Contact Us</li></NavLink></button>
+              <button><NavLink className={({ isActive}) =>
+              isActive
+                ? "text-green-500 underline"
+               :
+                 ""  
+            } to="/contact"><li>Contact Us</li></NavLink></button>
             }
             {
               user &&
-              <button><NavLink to="/services"><li>Services</li></NavLink></button>
+              <button><NavLink className={({ isActive}) =>
+              isActive
+                ? "text-green-500 underline"
+               :
+                 ""  
+            } to="/services"><li>Services</li></NavLink></button>
             }
 
           </ul>
