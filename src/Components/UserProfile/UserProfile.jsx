@@ -9,7 +9,6 @@ const UserProfile = () => {
     const { user, updateUserProfile } = useContext(AuthContext)
 
     const updateProfile = e => {
-        
         console.log(e.currentTarget);
         const form = new FormData(e.currentTarget);
         const name = form.get("name");
