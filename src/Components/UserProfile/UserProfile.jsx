@@ -1,7 +1,5 @@
 import { useContext } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
-import Navbar from '../Navbar/Navbar';
-import Footer from '../Footer';
 import { Helmet } from 'react-helmet-async';
 
 const UserProfile = () => {
@@ -12,10 +10,10 @@ const UserProfile = () => {
         console.log(e.currentTarget);
         const form = new FormData(e.currentTarget);
         const name = form.get("name");
-        const image = form.get("image");
-        console.log(name, image);
+        // const image = form.get("image");
+        console.log(name);
 
-        updateUserProfile(name, image)
+        updateUserProfile(name)
 					.then(result => {
 						console.log(result.user);
 					})

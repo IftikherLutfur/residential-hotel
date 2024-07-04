@@ -9,7 +9,6 @@ import AboutUs from "../Components/AboutUs/AboutUs";
 import PrivateRoutes from "./PrivateRoutes";
 import Contact from "../Components/Contact/Contact";
 import CardDetails from "../Components/CardDetails/CardDetails";
-import UserProfile from "../Components/UserProfile/UserProfile";
 import Error from "./Error";
 import Services from "../Components/Services/Services";
 import UpdateProfile from "../Components/UserProfile/UpdateProfile";
